@@ -66,7 +66,7 @@ h1 {
 	font-size: calc(5.5rem + 1.5vw);
 }
 
-.flex-container {
+/* .flex-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -95,25 +95,5 @@ h1 {
 
 footer {
 	padding: 20px 0;
-}
+} */
 
-@media (max-width: 750px) {
-	.wrapper {
-		width: 95%;
-	}
-
-	.image-container {
-		width: calc((100%/2) - 4%);
-	}
-}
-
-@media (max-width: 420px) {
-	
-	.image-container {
-		width: calc(100% - 4%);
-	}
-
-	.services ul {
-		flex-direction: column;
-	}
-}
